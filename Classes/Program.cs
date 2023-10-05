@@ -6,6 +6,12 @@
 // Java - called methods.
 // C++ - called functions
 
+class Tuple
+{
+    public int FirstValue;
+    public int SecondValue;
+}
+
 class MyClass
 {
 
@@ -47,9 +53,13 @@ class MyClass
 
     static void Main()  // Main is important - all program starts in main
     {
-
-
-
+        //int i = 5; // primitive - lowest form of a type that can be declare
+        //int i = { 5, 11 }; // cant give to values to "int" requires nonprimitive
+        Tuple myTuple = new Tuple 
+        { 
+            FirstValue  = 5,
+            SecondValue = 11
+        };
 
 
 
