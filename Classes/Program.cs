@@ -8,14 +8,20 @@
 
 class MyClass
 {
-    //static int Square(int value)    // return type: int
-    static float Square(float value)    // return type: float
-    {
-        return value * value;
-        //float returnValue = value * value;
-        //return returnValue;
 
-    }
+
+
+
+
+
+    ////static int Square(int value)    // return type: int
+    //static float Square(float value)    // return type: float
+    //{
+    //    return value * value;
+    //    //float returnValue = value * value;
+    //    //return returnValue;
+    //
+    //}
 
 
 
@@ -41,9 +47,16 @@ class MyClass
 
     static void Main()  // Main is important - all program starts in main
     {
-        float someFloatValue = 2342.323f;
-        float fiveSquared = Square(5);
-        Console.WriteLine(fiveSquared); // output: 25
+
+
+
+
+
+
+
+        //float someFloatValue = 2342.323f;
+        //float fiveSquared = Square(5);
+        //Console.WriteLine(fiveSquared); // output: 25
 
 
 
