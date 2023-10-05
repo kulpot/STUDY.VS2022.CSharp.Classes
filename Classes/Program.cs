@@ -6,11 +6,22 @@
 // Java - called methods.
 // C++ - called functions
 
-class Tuple
+// classes - a way to stores multiple values together in a single value
+// class - a blueprint for several objects
+
+class Person    // class with 4 primitive types
 {
-    public int FirstValue;
-    public int SecondValue;
+    public string FirstName;
+    public string MiddleName;
+    public string LastName;
+    public int Age;
 }
+
+//class Tuple   // class with 2 primitive types
+//{
+//    public int FirstValue;
+//    public int SecondValue;
+//}
 
 class MyClass
 {
@@ -53,13 +64,32 @@ class MyClass
 
     static void Main()  // Main is important - all program starts in main
     {
+        Person myTeacher = new Person   // myTeacher - object
+        {
+            FirstName = "Kulpot",
+            LastName = "Wahu",
+            MiddleName = "Neumont University",
+            Age = 55
+        };
+        Person aStudent = new Person    // aStudent - another object
+        {
+            FirstName = "Chris",
+            LastName = "Bob",
+        };
+        Console.WriteLine(myTeacher.FirstName);
+        Console.WriteLine(myTeacher.Age);
+
         //int i = 5; // primitive - lowest form of a type that can be declare
         //int i = { 5, 11 }; // cant give to values to "int" requires nonprimitive
-        Tuple myTuple = new Tuple 
-        { 
-            FirstValue  = 5,
-            SecondValue = 11
-        };
+        //Tuple myTuple = new Tuple 
+        //{ 
+        //    FirstValue  = 5,
+        //    SecondValue = 11
+        //};
+        //Console.WriteLine(myTuple.FirstValue);
+        //Console.WriteLine(myTuple.SecondValue);
+
+
 
 
 
